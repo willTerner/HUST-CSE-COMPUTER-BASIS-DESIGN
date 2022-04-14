@@ -1,0 +1,64 @@
+@picture-width:250px;
+@card-width:400px;
+body,html{
+  margin:0;
+}
+.wrapper{
+  display:flex;
+  justify-content: center;
+  .game-container{
+    width:70%;
+    .first-row{
+        border:1px solid black;
+        box-shadow:4px 4px 4px gray;
+        background-color:#e7b32f;
+        text-align: center;
+        .link{
+              padding:1rem;
+              border-radius:5%;
+              width:200px;
+              display:inline-block;
+              text-decoration:none;
+              background-color:#777;
+              color:white;
+              &:hover{
+                background-color:#333;
+              }
+        }
+    }
+    .second-row{
+      margin-top:20px;
+      display:flex;
+      justify-content: space-around;
+      .card{
+        width:@card-width;
+        box-shadow:2px 2px 2px 2px gray;
+        text-align: center;
+        a{
+          border-bottom:1px solid #bbb;
+          line-height: 3rem;
+          height:3rem;
+          display:block;
+          cursor:pointer;
+          text-decoration:none;
+          color:black;
+          &:hover{
+            background-color:#4b4b4b;
+            color:white;
+          }
+        }
+        img{
+          width:@picture-width;
+        }
+        p{
+          border-top:1px solid #bbb;
+          text-indent:2rem;
+          text-align: left;
+          padding:1rem;
+          font-size:0.8rem;
+        }
+      }
+    }
+  }
+}
+

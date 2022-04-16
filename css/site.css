@@ -1,0 +1,32 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .container {
+  padding: 20px;
+  box-shadow: 4px 4px 4px 4px #ccc;
+  width: 70%;
+  border: 1px solid #444;
+  background-color: #e7b32f;
+}
+.wrapper .container p {
+  line-height: 2rem;
+  text-indent: 2rem;
+}
+.wrapper .container .image {
+  height: 300px;
+  background-size: cover;
+}
+.wrapper .container a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-weight: bold;
+  margin-top: 1rem;
+}

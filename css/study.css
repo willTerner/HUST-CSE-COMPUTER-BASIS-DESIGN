@@ -1,0 +1,35 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.study-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.study-container .study-card {
+  box-shadow: 4px 4px 4px 4px #ccc;
+  width: 400px;
+  border: 2px solid black;
+}
+.study-container .study-card .header {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #666;
+  color: white;
+}
+.study-container .study-card .header:hover {
+  background-color: #333;
+}
+.study-container .study-card .body {
+  background-color: #e7b32f;
+  padding: 1rem;
+  line-height: 2rem;
+  text-indent: 2rem;
+}

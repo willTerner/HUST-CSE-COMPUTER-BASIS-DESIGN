@@ -1,0 +1,17 @@
+body,
+html {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper p {
+  width: 60%;
+  box-shadow: 2px 2px 2px 2px gray;
+  text-indent: 2rem;
+  line-height: 2rem;
+  padding: 1rem;
+  background-color: #e7b32f;
+}
